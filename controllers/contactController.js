@@ -11,7 +11,7 @@ const createContact = async (req, res) => {
       phone,
       subject,
       message
-    });
+    }); 
 
     await contact.save();
 
