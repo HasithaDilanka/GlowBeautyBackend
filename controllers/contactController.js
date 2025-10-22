@@ -30,7 +30,6 @@ const createContact = async (req, res) => {
   }
 };
 
-
 // Get all contacts
 const getAllContacts = async (req, res) => {
   try {
